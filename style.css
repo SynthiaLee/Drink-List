@@ -1,0 +1,29 @@
+img {
+  width:200px;
+  height:auto;
+}
+body {
+  border: solid black 10px;
+  border-bottom:none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom:30px;
+  border-bottom: solid black 10px;
+}
+h2 {
+  font-size:30px;
+  text-align: center;
+}
+li {
+  font-size: 25px;
+}
+#list1, #list2, #list3, #list4 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+ul {
+  font-size: 25px;
+  border-bottom: solid black 10px;
+}
